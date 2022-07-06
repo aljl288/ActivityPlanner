@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283861708637",
+    "firebase_url": "https://academic-calendar-ea3fb.firebaseio.com",
+    "project_id": "academic-calendar-ea3fb",
+    "storage_bucket": "academic-calendar-ea3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283861708637:android:f7da00bd68d14bd81142b4",
+        "android_client_info": {
+          "package_name": "ukm.com.academiccalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283861708637-1m0duih563ovcm4uqsk2nd4a22kvjqdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ukm.com.academiccalendar",
+            "certificate_hash": "cf4fea3bb79e1b4c83c18f190fbcd24ee1b1a537"
+          }
+        },
+        {
+          "client_id": "283861708637-j23josgf1cotg74f2b1vv9tkq31jhku7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJgrWvAobYz2SkCCNodXBe3mte4mfZPF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283861708637-j23josgf1cotg74f2b1vv9tkq31jhku7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

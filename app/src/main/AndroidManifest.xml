@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ukm.com.academiccalendar">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UKM Akvitiy Planner"
+        android:roundIcon="@mipmap/calendar"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="icon, label">
+        <activity android:name=".CalendarViewActivity"></activity>
+        <activity android:name=".MaintainEvent" />
+        <activity android:name=".Admin.DashboardActivity" />
+        <activity android:name=".MyEvent" />
+        <activity android:name=".Notification.NotiMainActivity" />
+        <activity android:name=".Admin.AdminViewFeedbackActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".Admin.AdminViewStudentListActivity" />
+        <activity android:name=".ViewHolder.ApplicationViewHolder" />
+        <activity android:name=".Admin.AdminCheckApprovalActivity" />
+        <activity android:name=".EventRegisterActivity" />
+        <activity android:name=".Admin.AdminMaintainEventActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Admin.EventActivity" />
+        <activity android:name=".Admin.AdminHomeActivity" />
+        <activity android:name=".Admin.AdminAddEventActivity" />
+        <activity android:name=".Auth.RegisterActivity" />
+        <activity android:name=".Auth.LoginActivity" />
+        <activity android:name=".MainPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Timetable.MainActivity" />
+    </application>
+
+</manifest>
